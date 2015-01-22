@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D36C56CD1A70AE8B00007DD2 /* Scores.m in Sources */ = {isa = PBXBuildFile; fileRef = D36C56CC1A70AE8B00007DD2 /* Scores.m */; };
+		D36C56D01A70BAE000007DD2 /* VariablesGlobales.m in Sources */ = {isa = PBXBuildFile; fileRef = D36C56CF1A70BAE000007DD2 /* VariablesGlobales.m */; };
 		D3E54A6C1A70A6E000F7FB29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E54A6B1A70A6E000F7FB29 /* main.m */; };
 		D3E54A6F1A70A6E000F7FB29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E54A6E1A70A6E000F7FB29 /* AppDelegate.m */; };
 		D3E54A721A70A6E000F7FB29 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E54A711A70A6E000F7FB29 /* Home.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D36C56CB1A70AE8B00007DD2 /* Scores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scores.h; sourceTree = "<group>"; };
+		D36C56CC1A70AE8B00007DD2 /* Scores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scores.m; sourceTree = "<group>"; };
+		D36C56CE1A70BAE000007DD2 /* VariablesGlobales.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariablesGlobales.h; sourceTree = "<group>"; };
+		D36C56CF1A70BAE000007DD2 /* VariablesGlobales.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariablesGlobales.m; sourceTree = "<group>"; };
 		D3E54A661A70A6E000F7FB29 /* Lab04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab04.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E54A6A1A70A6E000F7FB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3E54A6B1A70A6E000F7FB29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +91,10 @@
 				D3E54A6E1A70A6E000F7FB29 /* AppDelegate.m */,
 				D3E54A701A70A6E000F7FB29 /* Home.h */,
 				D3E54A711A70A6E000F7FB29 /* Home.m */,
+				D36C56CB1A70AE8B00007DD2 /* Scores.h */,
+				D36C56CC1A70AE8B00007DD2 /* Scores.m */,
+				D36C56CE1A70BAE000007DD2 /* VariablesGlobales.h */,
+				D36C56CF1A70BAE000007DD2 /* VariablesGlobales.m */,
 				D3E54A731A70A6E000F7FB29 /* Main.storyboard */,
 				D3E54A761A70A6E000F7FB29 /* Images.xcassets */,
 				D3E54A781A70A6E000F7FB29 /* LaunchScreen.xib */,
@@ -221,6 +231,8 @@
 			files = (
 				D3E54A721A70A6E000F7FB29 /* Home.m in Sources */,
 				D3E54A6F1A70A6E000F7FB29 /* AppDelegate.m in Sources */,
+				D36C56D01A70BAE000007DD2 /* VariablesGlobales.m in Sources */,
+				D36C56CD1A70AE8B00007DD2 /* Scores.m in Sources */,
 				D3E54A6C1A70A6E000F7FB29 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +426,7 @@
 				D3E54A8B1A70A6E000F7FB29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3E54A8C1A70A6E000F7FB29 /* Build configuration list for PBXNativeTarget "Lab04Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +435,7 @@
 				D3E54A8E1A70A6E000F7FB29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

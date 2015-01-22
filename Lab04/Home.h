@@ -11,5 +11,8 @@
 @interface Home : UIViewController
 
 
+@property (strong, nonatomic) IBOutlet UILabel *lblScore;
+- (IBAction)btnPush:(id)sender;
+
 @end
 
