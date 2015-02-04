@@ -11,6 +11,7 @@
 		D36C56D01A70BAE000007DD2 /* VariablesGlobales.m in Sources */ = {isa = PBXBuildFile; fileRef = D36C56CF1A70BAE000007DD2 /* VariablesGlobales.m */; };
 		D3B165881A8092B60025D922 /* BaseD.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B165871A8092B60025D922 /* BaseD.m */; };
 		D3B1658A1A8092E60025D922 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B165891A8092E60025D922 /* libsqlite3.dylib */; };
+		D3B165901A80A4CE0025D922 /* puntosL.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B1658F1A80A4CE0025D922 /* puntosL.m */; };
 		D3E54A6C1A70A6E000F7FB29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E54A6B1A70A6E000F7FB29 /* main.m */; };
 		D3E54A6F1A70A6E000F7FB29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E54A6E1A70A6E000F7FB29 /* AppDelegate.m */; };
 		D3E54A721A70A6E000F7FB29 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E54A711A70A6E000F7FB29 /* Home.m */; };
@@ -38,6 +39,9 @@
 		D3B165861A8092B60025D922 /* BaseD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseD.h; sourceTree = "<group>"; };
 		D3B165871A8092B60025D922 /* BaseD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseD.m; sourceTree = "<group>"; };
 		D3B165891A8092E60025D922 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D3B1658E1A80A4CE0025D922 /* puntosL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = puntosL.h; sourceTree = "<group>"; };
+		D3B1658F1A80A4CE0025D922 /* puntosL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = puntosL.m; sourceTree = "<group>"; };
+		D3B165911A80A6C20025D922 /* juego.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = juego.sqlite; sourceTree = "<group>"; };
 		D3E54A661A70A6E000F7FB29 /* Lab04.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab04.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E54A6A1A70A6E000F7FB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3E54A6B1A70A6E000F7FB29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +88,7 @@
 		D3E54A5D1A70A6E000F7FB29 = {
 			isa = PBXGroup;
 			children = (
+				D3B165911A80A6C20025D922 /* juego.sqlite */,
 				D3B165891A8092E60025D922 /* libsqlite3.dylib */,
 				D3B165851A8092150025D922 /* BaseDatos */,
 				D3E54A681A70A6E000F7FB29 /* Lab04 */,
@@ -110,6 +115,8 @@
 				D3E54A711A70A6E000F7FB29 /* Home.m */,
 				D36C56CB1A70AE8B00007DD2 /* Scores.h */,
 				D36C56CC1A70AE8B00007DD2 /* Scores.m */,
+				D3B1658E1A80A4CE0025D922 /* puntosL.h */,
+				D3B1658F1A80A4CE0025D922 /* puntosL.m */,
 				D36C56CE1A70BAE000007DD2 /* VariablesGlobales.h */,
 				D36C56CF1A70BAE000007DD2 /* VariablesGlobales.m */,
 				D3E54A731A70A6E000F7FB29 /* Main.storyboard */,
@@ -252,6 +259,7 @@
 				D3B165881A8092B60025D922 /* BaseD.m in Sources */,
 				D36C56CD1A70AE8B00007DD2 /* Scores.m in Sources */,
 				D3E54A6C1A70A6E000F7FB29 /* main.m in Sources */,
+				D3B165901A80A4CE0025D922 /* puntosL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

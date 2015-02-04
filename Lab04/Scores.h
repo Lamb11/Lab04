@@ -7,12 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseD.h"
 
-@interface Scores : UIViewController
+@interface Scores : UIViewController <UITableViewDelegate, UITableViewDataSource, UIAlertViewDelegate>
+
+
+- (IBAction)aregresar:(id)sender;
+@property (strong, nonatomic) IBOutlet UITableView *tblMain;
 
 @property (strong, nonatomic) IBOutlet UILabel *lblPuntuaje;
 
 @property (strong, nonatomic) IBOutlet UILabel *lblFecha;
+
 
 
 @end

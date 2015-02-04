@@ -10,6 +10,8 @@
 #import "VariablesGlobales.h"
 
 NSTimer *myTimer;
+int valorNuevo;
+int counter = 0;
 
 @interface Home ()
 
@@ -20,9 +22,13 @@ NSTimer *myTimer;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    counter=0;
-    
+    //se tarde en desaparecer el LaunchScreen
+    sleep(5);
+    //tiempo
     myTimer = [NSTimer scheduledTimerWithTimeInterval:10.0 target:self selector:@selector(pantallados) userInfo:nil repeats:NO];
+    counter = 0;
+    
+        
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,12 +37,21 @@ NSTimer *myTimer;
 }
 
 - (void)pantallados{
-    //NSLog(@"hoola gotoscorres");
     [self performSegueWithIdentifier:@"GoToScores" sender:self];
 }
 
 - (IBAction)btnPush:(id)sender {
     counter ++;
     self.lblScore.text=[NSString stringWithFormat:@"%d",counter];
+    NSDateFormatter *DateFormatter=[[NSDateFormatter alloc] init];
+    [DateFormatter setDateFormat:@"yyyy-MM-dd hh:mm:ss"];
+    //NSLog(@"Fecha: %@",[DateFormatter stringFromDate:[NSDate date]]);
+    NSString *fecha = [DateFormatter stringFromDate:[NSDate date]];
+    
+    //INSERT
+    [[BaseD getSharedInstance]saveData:counter fecha:fecha];
+    valorNuevo = counter;
+    
+    
 }
 @end
