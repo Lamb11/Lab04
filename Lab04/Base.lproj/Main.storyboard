@@ -47,7 +47,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.80000000000000004" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <outlet property="lblScore" destination="z2X-5N-Tfo" id="vkK-Id-45x"/>
                         <segue destination="6GH-8p-E5e" kind="custom" identifier="GoToScores" id="Iz0-Ap-DNN"/>
@@ -138,7 +138,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.80000000000000004" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <outlet property="tblMain" destination="q1Z-Em-erk" id="Y3K-Qy-DD4"/>
                     </connections>
